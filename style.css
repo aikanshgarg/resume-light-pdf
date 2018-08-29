@@ -102,7 +102,7 @@ p {
   height: 1.6cm;
   width: 7cm;
   background-color: #ef473a;
-  background: linear-gradient(to right, #cb2d3e, #ef473a);
+  /*background: linear-gradient(to right, #cb2d3e, #ef473a);*/
   border-radius: 2px; 
   margin-top: 3%;
   margin-left: 8%;
@@ -130,25 +130,27 @@ p {
   height: 8px;
   width: 8px;
   border-radius: 50%;
-  border: 2px solid #ef473a;
+  border: 2px solid black;
   margin-left: 60%;
   margin-top: 5%;
   margin-right: 3%;
+  background-color: #ef473a;
 }
 #circle-r {
   display: inline-flex;
   height: 8px;
   width: 8px;
   border-radius: 50%;
-  border: 2px solid #ef473a;
+  border: 2px solid black;
   margin-top: 5%;
   margin-left: 3%;
+  background-color: #ef473a;
 }
 
 .title {
   display: inline-flex;
   background-color: #ef473a;
-  background: linear-gradient(to right, #cb2d3e, #ef473a);
+  /*background: linear-gradient(to right, #cb2d3e, #ef473a);*/
   padding: 5px;
   padding-top: 2px;
   padding-bottom: 2px;
@@ -192,10 +194,11 @@ p {
   height: 8px;
   width: 8px;
   border-radius: 50%;
-  border: 2px solid  #ef473a;
+  border: 2px solid black;
   margin-top: 5%;
   margin-right: 4%;
   padding-right: 3.02px;
+  background-color: #ef473a;
 }
 .tltwocircle{
   display: inline-flex;
@@ -203,11 +206,12 @@ p {
   height: 8px;
   width: 8px;
   border-radius: 50%;
-  border: 2px solid  #ef473a;
+  border: 2px solid black;
   margin-top: 5%;
   margin-right: 4%;
   padding: 0;
   margin-left: 4%;
+  background-color: #ef473a;
 }
 
 #tltwo {
@@ -253,7 +257,7 @@ p {
 }
 .hor-line {
   display: inline-flex;
-  border-bottom: 1px solid  #ef473a;
+  border-bottom: 1px solid #ef473a;
   width: 148px;
   position: absolute;
   margin-top: 5.7%;
