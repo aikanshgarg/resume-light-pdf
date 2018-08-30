@@ -4,7 +4,7 @@ body {
   font-family: sans-serif;
   font-family: Roboto, Ubuntu, Arial, sans-serif;
     font-size: 81.25%;
-    line-height: 150%;
+    line-height: 145%;
 }
 #credits {
   display: inline-block;
@@ -251,7 +251,7 @@ p {
   position: absolute;
   display: inline-flex;
   border-left: 2px solid  black;
-  height: 102px;
+  height: 98px;
   margin-left: 42%;
   margin-top: 102%;
 }
@@ -272,9 +272,23 @@ p {
 #not-bold{
   font-weight: normal;
 }
+
+#projects-left {
+  position: absolute;
+  width: 60%;
+  left: 9%;
+  margin-top: 4%;
+}
+#projects-right {
+  position: absolute;
+  width: 30%;
+  left: 70%;
+  margin-top: 4%;
+}
+
 img {
-      margin-left: 31%;
-    margin-top: 4%;
+  height: 110px;
+  width: 90px;
 }
 
 @media print {
