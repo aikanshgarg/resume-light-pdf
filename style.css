@@ -250,14 +250,14 @@ p {
 #line {
   position: absolute;
   display: inline-flex;
-  border-left: 1px solid  #ef473a;
+  border-left: 2px solid  black;
   height: 102px;
   margin-left: 42%;
   margin-top: 102%;
 }
 .hor-line {
   display: inline-flex;
-  border-bottom: 1px solid #ef473a;
+  border-bottom: 2px solid black;
   width: 148px;
   position: absolute;
   margin-top: 5.7%;
@@ -271,6 +271,10 @@ p {
 
 #not-bold{
   font-weight: normal;
+}
+img {
+      margin-left: 31%;
+    margin-top: 4%;
 }
 
 @media print {
